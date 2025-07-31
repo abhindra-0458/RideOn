@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "93060471361",
+    "project_id": "rideon-rideon",
+    "storage_bucket": "rideon-rideon.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:93060471361:android:4a59eef5f8c2f0683484c0",
+        "android_client_info": {
+          "package_name": "com.example.test_application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "93060471361-br03jtrva1fh6oelev53pku6opb8hogg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrCZeY116ejRCyRe1LgfcEPuDdFAO-044"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "93060471361-br03jtrva1fh6oelev53pku6opb8hogg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

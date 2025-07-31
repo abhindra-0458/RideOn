@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:test_application/firebase_options.dart';
 import 'package:test_application/responsive/responsive_layout.dart';
+import 'package:test_application/screens/login_screen.dart';
 import 'package:test_application/utils/colors.dart';
 import 'package:test_application/responsive/mobile_screen_layout.dart';
 import 'package:test_application/responsive/web_screen_layout.dart';
@@ -22,10 +23,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData.dark().copyWith(
         scaffoldBackgroundColor: mobileBackgroundColor,
       ),
-      home: const ResponsiveLayout(
-        webScreenLayout: WebScreenLayout(),
-        mobileScreenLayout: MobileScreenLayout(),
-      ),
+      // home: const ResponsiveLayout(
+      //   webScreenLayout: WebScreenLayout(),
+      //   mobileScreenLayout: MobileScreenLayout(),
+      // ),
+      home: LoginScreen(),
     );
   }
 }
